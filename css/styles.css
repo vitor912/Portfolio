@@ -125,3 +125,18 @@ body{
     color: #69265c;
     margin-top: 2.5%;
 }
+
+.main h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #69265c;
+    margin-bottom: -10px;
+}
+
+.main p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+}
