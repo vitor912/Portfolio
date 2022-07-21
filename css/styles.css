@@ -8,7 +8,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: radial-gradient(circle at 0.17% 68.14%, #db4e75 0, #cb4777 10%, #b74076 20%, #a03871 30%, #852f69 40%, #69265c 50%, #4e1d4e 60%, #371541 70%, #240f35 80%, #16062b 90%, #090023 100%);
+    background-color: #c75702;
 
     font-family: 'IBM Plex Sans', sans-serif;
     color: #ffffff;
@@ -33,6 +33,8 @@ body{
     padding-bottom: 1%;
 }
 
+.nav a:hover{color: #69265c; transition: 1.2s;}
+
 .nav li{
     display: inline-block;
     margin-right: 2%;
@@ -43,4 +45,83 @@ body{
     font-size: 20px;
     color: #ffffff;
     font-weight: 300;
+}
+
+.nav li:visited{ color: #ffffff;}
+
+.nav li.threeline {display: none;}
+
+.nav li.threeline:hover{
+    color: #274f69;
+    cursor: pointer;
+}
+
+.capa{ color: #ffffff;}
+
+.capa span{
+    background-image: linear-gradient(220deg, #274f69 50%, #19232b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.capa div{
+    margin-top: 8%;
+    display: inline-block;
+    height: 400px;
+}
+
+.profile-pic{
+    width: 40%;
+    text-align: center;
+    animation-name: profile-capa;
+    animation-duration: 3s;
+}
+
+.profile-title{
+    vertical-align: top;
+    width: 59%;
+    animation-name: profile-titulo;
+    animation-duration: 3s;
+}
+
+.profile-pic img{
+    width: 310px;
+    border-radius: 300px;
+    size-adjust: 100%;
+}
+
+.profile-title h1{
+    font-size: 60px;
+    margin-top: 80px;
+    margin-right: 3%;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.profile-title h2{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -35px;
+}
+
+.main{
+    padding: 3% 6% 0 5%;
+    animation-name: conteudo;
+    animation-duration: 2s;
+}
+
+.main h1{
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.main h2{
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #69265c;
+    margin-top: 2.5%;
 }
