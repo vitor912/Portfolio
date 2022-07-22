@@ -14,7 +14,7 @@ body{
     color: #ffffff;
 }
 
-.nav ul{
+.navigation ul{
     margin-top: 1%;
     margin-right: 0;
     padding-left: 0;
@@ -24,7 +24,7 @@ body{
     cursor: pointer;
 }
 
-.nav, .nav a{
+.navigation, .navigation a{
     color: #ffffff;
     height: 30px;
     animation-name: menu-navegation;
@@ -33,9 +33,9 @@ body{
     padding-bottom: 1%;
 }
 
-.nav a:hover{color: #69265c; transition: 1.2s;}
+.navigation a:hover{color: #69265c; transition: 1.2s;}
 
-.nav li{
+.navigation li{
     display: inline-block;
     margin-right: 2%;
     padding-left: 0;
@@ -47,11 +47,11 @@ body{
     font-weight: 300;
 }
 
-.nav li:visited{ color: #ffffff;}
+.navigation li:visited{ color: #ffffff;}
 
-.nav li.threeline {display: none;}
+.navigation li.threeline {display: none;}
 
-.nav li.threeline:hover{
+.navigation li.threeline:hover{
     color: #274f69;
     cursor: pointer;
 }
@@ -119,11 +119,11 @@ body{
 
 .main h2{
     color: #ffffff;
-    font-size: 16px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: bold;
     color: #69265c;
-    margin-top: 2.5%;
+    margin-top: 2.12%;
 }
 
 .main h3{
@@ -139,4 +139,59 @@ body{
     font-weight: 100;
     line-height: 24px;
     text-align: justify;
+}
+
+.cv-pic2{
+    float: left;
+    width: 135px;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    border-radius: 7%;
+    position: relative;
+    display: block;
+    word-break: normal;
+}
+
+.link-oportunidade, .link-contato{ color: #ffffff;}
+
+.link:houver{ color:#69265c}
+
+.cv-pic2:hover{ opacity: 0.7; transition: 0.2s;}
+
+.sobre p{ text-align: left; word-spacing: 10px;}
+
+.link-contato:houver{ color: #274f69; font-size: 18px;}
+
+.perfil{
+    line-height: 16px;
+    font-size: 14px;
+    padding-bottom: 1%;
+    text-align: left;
+}
+
+.lista-conhecimento{
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.lista-conhecimentos li{
+    font-size: 16px;
+    font-family: montserrat;
+    line-height: 22px;
+}
+
+.lista-conhecimentos a{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.social-img{
+    width: 70px;
+    margin-top: 3%;
+    margin-bottom: 1.6%;
+    margin-right: 1%;
 }
