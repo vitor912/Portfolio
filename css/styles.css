@@ -4,7 +4,7 @@
     text-decoration: none;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-
+html,
 body{
     margin: 0px;
     padding: 0px;
@@ -24,7 +24,7 @@ body{
     cursor: pointer;
 }
 
-.navigation, .navigation a{
+.navigation{
     color: #ffffff;
     height: 30px;
     animation-name: menu-navegation;
@@ -32,8 +32,6 @@ body{
     padding-top: 0;
     padding-bottom: 1%;
 }
-
-.navigation a:hover{color: #69265c; transition: 1.2s;}
 
 .navigation li{
     display: inline-block;
@@ -47,9 +45,13 @@ body{
     font-weight: 300;
 }
 
+.navigation a{ color: #ffffff;}
+
 .navigation li:visited{ color: #ffffff;}
 
-.navigation li.threeline {display: none;}
+.navigation a:hover{ color: #69265c; transition: 1.2s;}
+
+.navigation li.threeline{ display: none;}
 
 .navigation li.threeline:hover{
     color: #274f69;
@@ -93,8 +95,8 @@ body{
 }
 
 .profile-title h1{
-    font-size: 60px;
-    margin-top: 80px;
+    font-size: 56px;
+    margin-top: 60px;
     margin-right: 3%;
     font-weight: 600;
     line-height: 1em;
@@ -119,7 +121,7 @@ body{
 
 .main h2{
     color: #ffffff;
-    font-size: 17px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
     color: #69265c;
@@ -153,15 +155,17 @@ body{
     word-break: normal;
 }
 
-.link-oportunidade, .link-contato{ color: #ffffff;}
+.link-oportunidade{ color: #ffffff;}
 
-.link:houver{ color:#69265c}
+.link:hover{ color:#69265c}
 
 .cv-pic2:hover{ opacity: 0.7; transition: 0.2s;}
 
 .sobre p{ text-align: left; word-spacing: 10px;}
 
-.link-contato:houver{ color: #274f69; font-size: 18px;}
+.link-contato{ color: rgb(255, 255, 255);}
+
+.link-contato:hover{ color: #274f69; font-size: 18px;}
 
 .perfil{
     line-height: 16px;
@@ -180,10 +184,10 @@ body{
 
 .lista-conhecimentos li{
     font-size: 16px;
-    font-family: montserrat;
+    font-family: 'IBM Plex Sans', sans-serif;
     line-height: 22px;
 }
-
+s
 .lista-conhecimentos a{
     font-size: 16px;
     color: #ffffff;
@@ -195,3 +199,44 @@ body{
     margin-bottom: 1.6%;
     margin-right: 1%;
 }
+
+.social-img-linkedin{
+    width: 55px;
+    margin-top: 2%;
+    margin-bottom: 1.6%;
+    margin-right: 1%;
+}
+
+.titulo-portfolio{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-left: 2%;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.container{
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 2%;
+    text-transform: uppercase;
+}
+  
+.miniatura{
+    width: 253px;
+    height: 233px;
+    border-radius: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.miniatura img{
+    max-width: 100%;
+    float: left;
+}
+
