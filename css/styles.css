@@ -8,10 +8,10 @@ html,
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #c75702;
+    background-color: #C04000;
 
     font-family: 'IBM Plex Sans', sans-serif;
-    color: #ffffff;
+    color: #E3DECA;
 }
 
 .navigation ul{
@@ -25,7 +25,7 @@ body{
 }
 
 .navigation{
-    color: #ffffff;
+    color: #E3DECA;
     height: 30px;
     animation-name: menu-navegation;
     animation-duration: 1.5s;
@@ -41,13 +41,13 @@ body{
     padding-top: 0;
     line-height: 30px;
     font-size: 20px;
-    color: #ffffff;
+    color: #E3DECA;
     font-weight: 300;
 }
 
-.navigation a{ color: #ffffff;}
+.navigation a{ color: #E3DECA;}
 
-.navigation li:visited{ color: #ffffff;}
+.navigation li:visited{ color: #E3DECA;}
 
 .navigation a:hover{ color: #69265c; transition: 1.2s;}
 
@@ -58,7 +58,7 @@ body{
     cursor: pointer;
 }
 
-.capa{ color: #ffffff;}
+.capa{ color: #E3DECA;}
 
 .capa span{
     background-image: linear-gradient(220deg, #274f69 50%, #19232b 100%);
@@ -115,12 +115,12 @@ body{
 }
 
 .main h1{
-    color: #ffffff;
+    color: #E3DECA;
     font-weight: normal;
 }
 
 .main h2{
-    color: #ffffff;
+    color: #E3DECA;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
@@ -136,7 +136,7 @@ body{
 }
 
 .main p{
-    color: #ffffff;
+    color: #E3DECA;
     font-size: 18px;
     font-weight: 100;
     line-height: 24px;
@@ -155,7 +155,7 @@ body{
     word-break: normal;
 }
 
-.link-oportunidade{ color: #ffffff;}
+.link-oportunidade{ color: #E3DECA;}
 
 .link:hover{ color:#69265c}
 
@@ -163,7 +163,7 @@ body{
 
 .sobre p{ text-align: left; word-spacing: 10px;}
 
-.link-contato{ color: rgb(255, 255, 255);}
+.link-contato{ color: #E3DECA;}
 
 .link-contato:hover{ color: #274f69; font-size: 18px;}
 
@@ -175,7 +175,7 @@ body{
 }
 
 .lista-conhecimento{
-    color: #ffffff;
+    color: #E3DECA;
     font-size: 14px;
     margin-top: -1em;
     margin-bottom: 1em;
@@ -240,3 +240,49 @@ s
     float: left;
 }
 
+.blackbox{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    padding-top: 100px;  
+}
+
+.blackbox:hover{
+    opacity: 0.9;
+    transition-duration: 0.5s;
+}
+  
+.blackbox-text{
+    text-align: center;
+}
+  
+.blackbox-text h1{
+    font-size: 16px;
+    color: #E3DECA;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.blackbox-text h2{
+    color: #E3DECA;
+    text-transform: none;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.button,
+.button a{
+    color: #E3DECA;
+    font-size: 16px;
+    margin-left: 0;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.button-hr{ margin-top: -1%;}
+
+.button a :hover{ color: #A44817;}
+
+.button a :visited{ color: #E3DECA;}
